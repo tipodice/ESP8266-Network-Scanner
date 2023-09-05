@@ -3,7 +3,7 @@ import network
 import db
 
 
-my_db = db.Database('aps.json')
+my_db = db.Database('network_data.json')
 
 sta_if = network.WLAN(network.STA_IF)
 sta_if.active(True)
