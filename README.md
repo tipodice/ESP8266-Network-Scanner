@@ -23,7 +23,12 @@ To get started with the ESP8266 Network Scanner, follow these steps:
 1. **Clone the Repository:**
 
 2. **Upload Code to ESP8266:**
-- Use your preferred method to upload the `main.py` and `db.py` files to your ESP8266 device.
+- Use ampy to upload the `main.py` and `db.py` files to your ESP8266 device.
+
+  Install ampy:
+  ```
+  pip install adafruit-ampy
+  ```
 
 3. **Run the Scanner:**
 - Power up your ESP8266 and let it run the scanning script.
@@ -32,10 +37,11 @@ To get started with the ESP8266 Network Scanner, follow these steps:
 4. **View and Analyze Data:**
 - Retrieve the JSON file from the ESP8266 or access it remotely, depending on your setup.
 
-  You can retrieve "networks.json" by with ampy, you can install it on your enviroment using:
+  You can retrieve "networks.json" with ampy, you can install it on your enviroment by running:
   ```
   pip install adafruit-ampy
   ```
+  Now you can retrieve 
 - Analyze the collected data to gain insights into nearby Wi-Fi networks.
 
 ## Contributing
