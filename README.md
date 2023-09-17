@@ -29,7 +29,11 @@ To get started with the ESP8266 Network Scanner, follow https://docs.micropython
   ```
   pip install adafruit-ampy
   ```
-  Upload 
+  then, you can run:
+  ```
+  sudo ampy --port /dev/ttyUSB0 put main.py
+  sudo ampy --port /dev/ttyUSB0 put db.py
+  ```
 3. **Run the Scanner:**
 - Power up your ESP8266 and let it run the scanning script.
 - The collected network data will be stored in a JSON file.
