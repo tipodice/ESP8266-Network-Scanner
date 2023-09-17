@@ -44,7 +44,7 @@ Prepare your board first, follow https://docs.micropython.org/en/latest/esp8266/
   ```
   sudo ampy --port /dev/ttyUSB0 get networks.json
   ```
-  or save the output to data.json 
+  or write the output to data.json 
   ```
   sudo ampy --port /dev/ttyUSB0 get networks.json > data.json
   ```
