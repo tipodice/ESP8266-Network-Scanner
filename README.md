@@ -45,8 +45,7 @@ To get started with the ESP8266 Network Scanner, follow https://docs.micropython
   ```
   sudo ampy --port /dev/ttyUSB0 get networks.json
   ```
-  or
-  save the output to data.json for example
+  or save the output to data.json 
   ```
   sudo ampy --port /dev/ttyUSB0 get networks.json > data.json
   ```
