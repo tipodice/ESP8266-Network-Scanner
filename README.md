@@ -19,17 +19,18 @@ The ESP8266 Network Scanner is a versatile and efficient tool for monitoring and
 ## Getting Started
 
 To get started with the ESP8266 Network Scanner, follow these steps:
+If you haven't done it yet, prepare your ESP8266 board by visiting https://docs.micropython.org/en/latest/esp8266/tutorial/intro.html
 
 1. **Clone the Repository:**
 
 2. **Upload Code to ESP8266:**
-- Use ampy to upload the `main.py` and `db.py` files to your ESP8266 device.
+- Use se ampy to upload the `main.py` and `db.py` files to your ESP8266 device.
 
-  Install ampy:
+  Install ampy first by running:
   ```
   pip install adafruit-ampy
   ```
-
+  Upload 
 3. **Run the Scanner:**
 - Power up your ESP8266 and let it run the scanning script.
 - The collected network data will be stored in a JSON file.
