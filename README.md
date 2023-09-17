@@ -18,8 +18,7 @@ The ESP8266 Network Scanner is a versatile and efficient tool for monitoring and
 
 ## Getting Started
 
-To get started with the ESP8266 Network Scanner, follow these steps:
-If you haven't done it yet, prepare your ESP8266 board by visiting https://docs.micropython.org/en/latest/esp8266/tutorial/intro.html
+To get started with the ESP8266 Network Scanner, follow https://docs.micropython.org/en/latest/esp8266/tutorial/intro.html and prepare your board to run micropython.
 
 1. **Clone the Repository:**
 
