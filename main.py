@@ -4,7 +4,7 @@ import network
 import db  # Import the custom database module
 
 # Create an instance of the Database class to manage network data
-my_db = db.Database('ap_data.json')
+my_db = db.Database('networks.json')
 
 # Activate the Wi-Fi interface for scanning
 sta_if = network.WLAN(network.STA_IF)
