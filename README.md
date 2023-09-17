@@ -27,7 +27,7 @@ To get started with the ESP8266 Network Scanner, follow https://docs.micropython
 
   Install ampy first by running:
   ```
-  pip install adafruit-ampy
+  sudo pip install adafruit-ampy
   ```
   then, you can upload files by running:
   ```
