@@ -49,7 +49,6 @@ To get started with the ESP8266 Network Scanner, follow https://docs.micropython
   ```
   sudo ampy --port /dev/ttyUSB0 get networks.json > data.json
   ```
-  Now you can retrieve 
 - Analyze the collected data to gain insights into nearby Wi-Fi networks.
 
 ## Contributing
