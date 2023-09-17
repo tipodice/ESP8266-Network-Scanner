@@ -29,21 +29,26 @@ To get started with the ESP8266 Network Scanner, follow https://docs.micropython
   ```
   pip install adafruit-ampy
   ```
-  then, you can run:
+  then, you can upload files by running:
   ```
   sudo ampy --port /dev/ttyUSB0 put main.py
   sudo ampy --port /dev/ttyUSB0 put db.py
   ```
 3. **Run the Scanner:**
 - Power up your ESP8266 and let it run the scanning script.
-- The collected network data will be stored in a JSON file.
+- The collected network data will be stored in a JSON file called networks.json.
 
 4. **View and Analyze Data:**
 - Retrieve the JSON file from the ESP8266 or access it remotely, depending on your setup.
 
-  You can retrieve "networks.json" with ampy, you can install it on your enviroment by running:
+  You can retrieve "networks.json" by running:
   ```
-  pip install adafruit-ampy
+  sudo ampy --port /dev/ttyUSB0 get networks.json
+  ```
+  or
+  save the output to data.json for example
+  ```
+  sudo ampy --port /dev/ttyUSB0 get networks.json > data.json
   ```
   Now you can retrieve 
 - Analyze the collected data to gain insights into nearby Wi-Fi networks.
