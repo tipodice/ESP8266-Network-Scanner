@@ -31,6 +31,7 @@ To get started with the ESP8266 Network Scanner, follow these steps:
 
 4. **View and Analyze Data:**
 - Retrieve the JSON file from the ESP8266 or access it remotely, depending on your setup.
+
 You can retrieve "networks.json" by with ampy
 - Analyze the collected data to gain insights into nearby Wi-Fi networks.
 
