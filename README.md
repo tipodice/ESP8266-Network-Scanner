@@ -4,6 +4,8 @@ A MicroPython-based network scanner for ESP8266 chips.
 ![ESP8266](https://img.shields.io/badge/Platform-ESP8266-blue)
 ![MicroPython](https://img.shields.io/badge/Language-MicroPython-green)
 
+![all-text](https://imgur.com/josUjbU)
+
 ## Description
 
 The ESP8266 Network Scanner is a versatile and efficient tool for monitoring and scanning wireless Access Point (AP) networks using ESP8266 microcontroller-based chips. This project allows you to easily scan for available Wi-Fi AP networks in your vicinity and collect essential information such as SSID, signal strength (RSSI), encryption type, and channel. The collected data is stored in a JSON file for analysis and further use.
