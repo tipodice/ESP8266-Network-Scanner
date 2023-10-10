@@ -4,7 +4,7 @@ A MicroPython-based network scanner for ESP8266 chips.
 ![ESP8266](https://img.shields.io/badge/Platform-ESP8266-blue)
 ![MicroPython](https://img.shields.io/badge/Language-MicroPython-green)
 
-![all text](https://imgur.com/josUjbU)
+![all text](https://i.imgur.com/josUjbU.png)
 
 ## Description
 
