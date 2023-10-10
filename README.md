@@ -52,9 +52,6 @@ Prepare your board first, follow https://docs.micropython.org/en/latest/esp8266/
   ```
 - Analyze the collected data to gain insights into nearby Wi-Fi networks.
 
-## Contributing
-
-Contributions are welcome! If you'd like to enhance this project or fix any issues, please submit a pull request. For major changes, please open an issue first to discuss the proposed changes.
 
 ## License
 
